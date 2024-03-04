@@ -1,7 +1,8 @@
 
 
 
-//EXO8: Proposer un ALGO/pseudocode puis un programme Pascal permettant d'afficher les nombres entiers pair de 0 à un n donné, nsup 0
+//EXO8: Proposer un ALGO/pseudocode puis un programme Pascal 
+//permettant d'afficher les nombres entiers pair de 0 à un n donné, nsup 0
 
 Program EXO8;
 Var 
