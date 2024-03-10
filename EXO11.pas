@@ -1,4 +1,4 @@
-// EXO11:Proposer un ALGO permettant de saisir n entiers et 
+// Proposer un ALGO permettant de saisir n entiers et 
 //d'afficher le nombre d'entiers égal à 25 parmi eux, n étant saisi.
 Program EXO10;
 Var 
@@ -6,7 +6,7 @@ Var
 Begin
     writeln('Entrer le nombre de fois :');
     readln(n);
-
+    if  n>0 then begin 
     For i:=1 To n Do
         Begin
             writeln('Entrer un entier:');
@@ -18,6 +18,7 @@ Begin
                 End;
         End;
     writeln('Le nombre d''entiers égal à 25 est: ',compt);
-
     writeln('A BIENTOT!');
+end else if n<=0 then writeln('')
+    
 End.
