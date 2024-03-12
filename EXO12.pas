@@ -1,7 +1,8 @@
 
 
-//EXO12: Proposer un Algo puis un programme Pascal permettant de saisir n entiers et d'afficher le plus grand et le plus petit parmi eux et la moyenne de tous les entiers, n étant saisis
-//
+//EXO12: Proposer un Algo puis un programme Pascal permettant de saisir n entiers 
+// et d'afficher le plus grand et le plus petit parmi eux et la moyenne de tous les entiers, 
+//n étant saisis
 
 Program EXO12;
 Var 
@@ -19,7 +20,7 @@ Begin
             readln(a);
             If a>max  Then
                 max := a
-            Else //If a<min Then
+            Else If  min>a  Then
               min := a;
               som := som+a;
         End;
