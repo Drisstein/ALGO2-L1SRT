@@ -1,0 +1,15 @@
+//EXO12: Proposer un Algo puis un programme Pascal permettant de saisir n entiers et d'afficher le plus grand et le plus petit parmi eux et la moyenne de tous les entiers, n étant saisis
+//
+
+L'exercice consiste à proposer un algorithme et un programme Pascal permettant de saisir une liste de n entiers et d'afficher les éléments suivants :
+
+Le plus grand entier de la liste
+Le plus petit entier de la liste
+La moyenne (moyenne arithmétique) de tous les entiers de la liste
+Voici un exemple de l'algorithme :
+
+Lire n depuis l'utilisateur
+Initialiser les variables pour stocker le plus grand entier, le plus petit entier et la somme des entiers à 0
+Boucle n fois : a. Lire un entier x depuis l'utilisateur b. Mettre à jour le plus grand entier et le plus petit entier en comparant x avec les valeurs actuelles c. Ajouter x à la somme des entiers
+Calculer la moyenne en divisant la somme des entiers par n
+Afficher le plus grand entier, le plus petit entier et la moyenne
