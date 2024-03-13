@@ -19,9 +19,9 @@ Begin
             writeln('Entrer un entier:');
             readln(a);
             If a>max  Then
-                max := a
-            Else If  min>a  Then
-              min := a;
+                max := a;
+            If  min<max  Then
+              min := a ;
               som := som+a;
         End;
     writeln('Le nombre le plus grand nombre est: ',max);
@@ -30,3 +30,6 @@ Begin
 
     writeln('A BIENTOT!');
 End.
+//si entre n=3 , a=20 , a=10,a=5 donc a=20 on compare avec 0 si 20sup 0 alors max=20
+//si on entre a=10  on compare avec max si a=10 sup 20 alors max=10 sinon max=20 reste inchang‚e 
+//si a=10 on compare avec le suivant qui n:=n+1 si aSup … ce a l… donc a=10 est le minimum sinon l'autre est le minimum
