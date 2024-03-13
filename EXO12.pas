@@ -11,18 +11,20 @@ Var
 Begin
     writeln('Entrer le nombre de fois :');
     readln(n);
-    min := 0;
-    max := 0;
-    som := 0;
-    For i:=1 To n Do
+    Writeln('Entrer un entier:');
+    Readln(a);
+    min := a;
+    max := a;
+    som := a;
+    For i:=2 To n Do
         Begin
             writeln('Entrer un entier:');
             readln(a);
             If a>max  Then
-                max := a;
-            If  min<max  Then
-              min := a ;
-              som := som+a;
+                max := a
+            Else If  a<min  Then
+                     min := a ;
+            som := som+a;
         End;
     writeln('Le nombre le plus grand nombre est: ',max);
     writeln('Le nombre le plus petit nombre est: ',min);
@@ -31,5 +33,9 @@ Begin
     writeln('A BIENTOT!');
 End.
 //si entre n=3 , a=20 , a=10,a=5 donc a=20 on compare avec 0 si 20sup 0 alors max=20
-//si on entre a=10  on compare avec max si a=10 sup 20 alors max=10 sinon max=20 reste inchang‚e 
-//si a=10 on compare avec le suivant qui n:=n+1 si aSup … ce a l… donc a=10 est le minimum sinon l'autre est le minimum
+
+
+//si on entre a=10  on compare avec max si a=10 sup 20 alors max=10 sinon max=20 reste inchangï¿½e 
+
+
+//si a=10 on compare avec le suivant qui n:=n+1 si aSup ï¿½ ce a lï¿½ donc a=10 est le minimum sinon l'autre est le minimum
