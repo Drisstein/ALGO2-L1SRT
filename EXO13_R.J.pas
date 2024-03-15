@@ -16,7 +16,7 @@ Begin
             readln(a);
         End;
     until (a<=0)  ;
-    writeln('A la prochaine !')
+    writeln(' Oups,A la prochaine !')
     
 End.
  
