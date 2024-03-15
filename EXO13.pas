@@ -4,3 +4,10 @@
 // -TANT QUE....FAIRE
 // -FAIRE....TANQUE
 // -REPETER....JUSQU'A
+
+PROGRAM
+VAR 
+
+BEGIN 
+
+END.
