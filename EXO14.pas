@@ -1,4 +1,6 @@
 //
+
+
 //EXO14: Proposer un Algorithme puis un Programme PASCAL permettant de saisir et d'afficher un nombre entier positif. 
 //Lorsqu'un nombre négatif ou nul est donné, l'Algo demande à l'user un nouveau nombre.
 //
@@ -17,7 +19,7 @@ Begin
             write('Entrer un entier positif:');
             readln(a);
         End;
-    //Version 2 avec Repeter-Jusqu'� 
+    //Version 2 avec Repeter-Jusqu'� 
     // if a<=0 then 
     //repeat
     //    Begin
