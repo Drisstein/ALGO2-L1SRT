@@ -3,8 +3,22 @@
 //d'entiers saisis. 
 //Pour arreter la saisie des entiers l'utilsateur saisi l'entier zéro (0)
 
-Program EXO15;
-var 
-BEGIN 
+    Program EXO14;
+    Var 
+        a,som : integer;
 
-END.
+    Begin
+        Write('Entrer un entier positif:');
+        ReadLn(a);
+        som := a;
+        Repeat
+            Begin
+                write('Entrer un entier positif:');
+                readln(a);
+                som := som+a;
+            End;
+        Until  (a = 0);
+
+        writeln('La somme des entiers saisis est  :',som);
+
+    End.
