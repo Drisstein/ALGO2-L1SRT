@@ -1,20 +1,23 @@
 
 
-//EXO14:Proposer un algorithme permettant de calculer et d'afficher y", y et n étant des entiers positifs.
-
-Program EXO14;
+//EXO16:Proposer un algorithme permettant de calculer et d'afficher y", y et n étant des entiers positifs.
+Program EXO16;
+Uses crt;
 Var 
-    i,y_sqrN , y,n : integer;
+    i,result , y,n : integer;
 
 Begin
+
     Write('Entrer un entier positif:');
     ReadLn(y);
     Write('Entrer la puissance:');
     ReadLn(n);
-    While y>0 Do
+    result := 1;
+    If (y>0) And (n>0) Then
         Begin
-            For i:=1 To n Do
-                y_sqrN := y*y;
-        End;
-    writeln(y,'^',n,':',y_sqrN);
+            For i := 1 To n Do
+                result := result * y;
+            Writeln(y, '^', n, '=', result);
+        End
+     Else writeln('Veuillez saisir y et n positifs !')
 End.
