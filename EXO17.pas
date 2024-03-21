@@ -1,0 +1,1 @@
+//Proposer un Algo permettant d'afficher le resultat et le reste de la division euclidienne  entre 2 nombres entiers a et b positifs en utilsant uniquement une suite de soustractions./*
