@@ -1,23 +1,17 @@
 
-
-
-//Proposer un Algo permettant d'afficher le resultat et le reste de la division euclidienne  entre 2 nombres entiers a et b positifs en utilsant uniquement une suite de soustractions./*
+//Proposer un Algorithme permettant de calculer et d'afficher le produit de a et b int>0 en utilsant uniquement une suie d'additions.
 
 Program EXO17;
-Var 
-    a,b,result, i,n,reste : integer;
+Var i,a,b,produit :integer;
 Begin
-    writeln('Entrer a et b positifs:');
+    write('Entrer a et b entiers positifs: ');
     readln(a,b);
     If (a>0) And (b>0) Then
         Begin
-            n := a Div b ;
- //n ‚tant le nombre d'it‚rations … additionner la dividente , le nombre d'addition … effectuer.
-            reste := a Mod b;
-            result := 0;
-            For i:=1 To n Do
-                result := result-1 ;
-            writeln('Resulat=',result*-1,' reste=',reste);
+            produit := 0;
+            For i:=1 To a Do
+                produit := produit+b;
+            writeln(a,'*',b,'=',produit)
         End
-    Else writeln('Saisis incorrecte!');
+    Else writeln('Saisie incorrecte!')
 End.
