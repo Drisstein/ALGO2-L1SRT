@@ -1,0 +1,1 @@
+//Proposer un Algo permettant de sasir n réels compris entre 0 et 20. Les reels qui ne sont pas entre 0 et 20 ne seront pas comptés
