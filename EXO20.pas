@@ -9,7 +9,7 @@ Var
 Begin
     Write('Entrer un entier positif:');
     ReadLn(a);
-    compt := a;
+    compt := 0;
     Repeat
         Begin
             write('Entrer un entier positif:');
