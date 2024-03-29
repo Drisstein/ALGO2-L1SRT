@@ -64,10 +64,23 @@ Begin
             writeln('Bonjour ');
             i := i+1;
         End;
+    //OUTPUT 
+    // Bonsoir
+    //Bonsoir
+    //Bonsoir
+    //Bonsoir
+    //Bonsoir
+    //Bonjour  
     /////////////////////////////////////////////////////////////
     writeln('----------------SORTIE 06------------------');
     For i:=1 To 5 Do
         writeln('Bonjour ');
     writeln('Bonsoir  ');
-
+    //OUTPUT
+    //Bonjour
+    //Bonjour
+    //Bonjour
+    //Bonjour
+    //Bonjour
+    //Bonsoir
 End.
