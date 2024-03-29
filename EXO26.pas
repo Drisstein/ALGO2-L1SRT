@@ -4,9 +4,9 @@ Program EXO26_SORTIES;
 Var 
     i,j : integer;
 Begin
-	
+
     writeln('-------------------SORTIE 1----------------------');
-    
+
     For i:=1 To 5 Do
         Begin
             If i<3 Then
@@ -55,4 +55,19 @@ Begin
     //Bonsoir
     //Bonjour
     //Bonsoir
+    ///////////////////////////////////////////////////////////
+    writeln('----------------SORTIE 05------------------');
+    For i:=1 To 5 Do
+        writeln('Bonsoir');
+    While i<6 Do
+        Begin
+            writeln('Bonjour ');
+            i := i+1;
+        End;
+    /////////////////////////////////////////////////////////////
+    writeln('----------------SORTIE 06------------------');
+    For i:=1 To 5 Do
+        writeln('Bonjour ');
+    writeln('Bonsoir  ');
+
 End.
