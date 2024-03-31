@@ -40,7 +40,7 @@ Begin
                 End;
         End;
     writeln;
-    //// 25* writeln('Bonjour');
+    //// * writeln('Bonjour');
 
     /////////////////////////////////////////
     writeln('----------------SORTIE 04------------------');
