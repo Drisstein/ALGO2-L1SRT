@@ -1,0 +1,1 @@
+//Proposer un ALgo permettant de saisir un Tableau de 10 entiers puis verifie si un nombre n donné par l'user y figure.
