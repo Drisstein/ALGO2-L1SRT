@@ -1,4 +1,5 @@
 
+
 //Proposer un ALgo permettant de saisir un Tableau de 10 entiers puis verifie si un nombre n donné par l'user y figure.
 
 Program TP04;
@@ -14,6 +15,9 @@ Begin
         End;
     WriteLn('Entrer l''entier recherché :');
     ReadLn(n);
-    i:=n;
-    WriteLn('Le ',n,'e element  est:',Tab10[i]);
+
+    For i:=1 To 10 Do
+        If n=Tab10[i] Then
+            WriteLn(n,' est ',i,' eme element  du tableau.');
+            write;       
 End.
