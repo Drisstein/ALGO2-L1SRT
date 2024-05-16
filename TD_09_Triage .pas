@@ -16,7 +16,7 @@ begin
   for i := 0 to 4 do
     write(arr[i],' ');
 
-  // Rendre à 0 les entiers négatifs et les placer à la fin du tableau
+  // Rendre à 0 les entiers négatifs et les placer à la fin du tableau en utilisant un tampon
   j := 4;
   for i := 0 to 4 do
   begin
@@ -30,7 +30,7 @@ begin
     end;
   end;
 
-  writeln('Tableau après traitement :');
+  writeln('Tableau Final après traitement :');
   for i := 0 to 4 do
     write(arr[i], ' ');
 end.
